@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #6dd5ed;
+  width: 100vw;
+}
+
+.app_heading {
+  font-size: 48px;
+  margin-bottom: 16px;
+  color: #fff;
+}
+.taskInput {
+  border: 1px solid black;
+}
+.taskInput_container {
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+.taskInput_input {
+  width: 100%;
+  background-color: #fff;
+}
+.taskInput_btn {
+  background-color: #800080;
+}
+.taskList_container {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+  color: #fff;
+  font-size: 18px;
+  background-image: linear-gradient(#2193b0, #6dd5ed);
+}
+
+.taskList_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50%;
+}
+.taskList_delete {
+  color: #fff;
+}
+.taskList_done {
+  color: #1e9600;
+}
